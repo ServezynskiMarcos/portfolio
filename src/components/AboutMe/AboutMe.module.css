@@ -1,0 +1,30 @@
+.container{
+  background-color: #9599E2;
+  height: 100vh;
+  scroll-snap-align: start;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  gap: 5rem;
+  width: 100%;
+}
+.container p{
+  color: #fff;
+  font-family: 'Catamaran', sans-serif;
+  text-align: justify;
+  font-size: 1.3rem;
+  line-height: 2;
+  width: 50%;
+}
+.mask{
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+  border: 4px solid rgb(255, 255, 255);
+  display: flex;
+  overflow: hidden;
+  box-shadow: 1px 1px 10px #3F3D56;
+}
+.mask img {
+  object-fit: cover;
+}
