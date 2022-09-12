@@ -63,3 +63,27 @@
   width: 50%;
   height: 300px;
 }
+/* RESPONSIVE */
+@media (max-width: 600px){
+  .container{
+    flex-direction: column;
+  }
+  .container img{
+    height: auto;
+    margin: auto;
+  }
+  .div1{
+    flex-direction: column-reverse;
+    width: 100%;
+    margin-top: 50%;
+  }
+  .div1 .present{
+    margin: 0;
+  }
+  .div1 .icons {
+    flex-direction: row;
+  }
+  .div1 .icons a{
+    transform: rotate(0deg);
+  }
+}
