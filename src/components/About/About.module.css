@@ -94,6 +94,85 @@
     }
     to {
       width: 56%;
-    }
+    }}}
+
+@media (min-width: 600px){
+  .container{
+    flex-direction: column;
+    gap: 2rem;
   }
+  .container img{
+    width: 100%;
+  }
+  .div1{
+    height: 200px;
+    flex-direction: column-reverse;
+    width: 100%;
+    margin-top: 20%;
+  }
+  .div1 .present{
+    margin: 0;
+  }
+  .div1 .icons {
+    flex-direction: row;
+  }
+  .div1 .icons a{
+    transform: rotate(0deg);
+  }
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 31%;
+    }}
 }
+@media (min-width: 768px){
+  .container{
+    gap: 1rem;
+  }
+  .div1{
+    
+    width: 100%;
+    margin-top: 12%;
+
+  }
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 29%;
+    }}
+}
+@media (min-width: 992px){
+    .container{
+      flex-direction: row;
+      gap: 2rem;
+    }
+    .container img{
+      width: 90%;
+    }
+    .div1{
+      flex-direction: row;
+      width: 100%;
+      margin-top: 0;
+  
+    }
+    .div1 .present{
+      margin: 0;
+    }
+    .div1 .icons {
+      flex-direction: column;
+    }
+    .div1 .icons a{
+      transform: rotate(270deg);
+    }
+    @keyframes typing {
+      from {
+        width: 0;
+      }
+      to {
+        width: 38%;
+      }}
+  }
