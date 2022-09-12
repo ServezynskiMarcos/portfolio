@@ -69,8 +69,8 @@
     flex-direction: column;
   }
   .container img{
-    height: auto;
-    margin: auto;
+    width: 90%;
+    border: 1px solid red;
   }
   .div1{
     flex-direction: column-reverse;
@@ -85,5 +85,13 @@
   }
   .div1 .icons a{
     transform: rotate(0deg);
+  }
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 56%;
+    }
   }
 }
