@@ -122,27 +122,3 @@
    margin-top: 3%;
   }
 }
-/* @media (min-width: 376px){
-  .cardContainer{
-    width: 100%;
-    height: auto;
-  }
-  .cardImage{
-    width: 100%;
-    height: 45vh;
-    object-fit: cover;
-  }
-  .overlay{
-    width: 68%;
-    height: 39vh;
-    font-size: 0.7rem;
-    overflow: auto;
-  }
-  .rightArrow {
-    right: 8px;
-  }
-  
-  .leftArrow {
-    left: 8px;
-  }
-} */

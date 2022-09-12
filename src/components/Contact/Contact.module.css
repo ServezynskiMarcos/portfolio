@@ -3,7 +3,6 @@
   height: 100vh;
   scroll-snap-align: start;
   display: flex;
-  
   justify-content:center;
   align-items: center;
 }
@@ -41,8 +40,8 @@
   color: #8a8ee6;
 }
 @media (max-width: 600px){
-  .container{
-    display: none;
+  .container form{
+    padding: 1.5rem;  
   }
   
 }
