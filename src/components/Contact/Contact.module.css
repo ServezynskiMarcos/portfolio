@@ -40,3 +40,9 @@
   font-weight: bold;
   color: #8a8ee6;
 }
+@media (max-width: 600px){
+  .container{
+    display: none;
+  }
+  
+}

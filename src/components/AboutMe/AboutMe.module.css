@@ -28,3 +28,9 @@
 .mask img {
   object-fit: cover;
 }
+@media (max-width: 600px){
+  .container{
+    display: none;
+  }
+  
+}
