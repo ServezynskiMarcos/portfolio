@@ -93,3 +93,52 @@
   color: #fff;
   cursor: pointer;
 }
+.imageMobile{
+  width: 230px;
+}
+@media (max-width: 375px){
+  .cardContainer{
+    width: 100%;
+    height: 50vh;
+  }
+  .cardImage{
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+  }
+  .rightArrow {
+    top: 80%;
+  }
+  .leftArrow {   
+    top: 80%;   
+  }
+  .overlay{
+    width: 64%;
+    height: 34vh;
+    font-size: 0.7rem;
+    overflow: auto;
+  }
+}
+@media (max-width: 768px){
+  .cardContainer{
+    width: 100%;
+    height: auto;
+  }
+  .cardImage{
+    width: 100%;
+    height: 45vh;
+    object-fit: cover;
+  }
+  .overlay{
+    width: 68%;
+    height: 39vh;
+    font-size: 0.7rem;
+    overflow: auto;
+  }
+  .rightArrow {
+    right: 8px;
+  }
+  .leftArrow {
+    left: 8px;
+  }
+}

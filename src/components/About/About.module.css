@@ -74,7 +74,7 @@
   }
   .div1{
     flex-direction: column-reverse;
-    width: 100%;
+    width: 90%;
     margin-top: 50%;
   }
   .div1 .present{
