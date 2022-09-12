@@ -4,7 +4,6 @@
   font-family: "Marcellus", serif;
 }
 .container{
-  background-color: red;
   height: 100vh;
   box-sizing: border-box;
   scroll-snap-type: y mandatory;
