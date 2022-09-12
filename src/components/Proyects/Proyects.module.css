@@ -96,30 +96,33 @@
 .imageMobile{
   width: 230px;
 }
-@media (max-width: 375px){
+@media (max-width: 600px){
   .cardContainer{
     width: 100%;
     height: 50vh;
   }
   .cardImage{
-    width: 100%;
-    height: 40vh;
-    object-fit: cover;
+    width: 320px;
+    height: 250px;
+    
   }
   .rightArrow {
-    top: 80%;
+    top: 75%;
   }
   .leftArrow {   
-    top: 80%;   
+    top: 75%;   
   }
   .overlay{
-    width: 64%;
-    height: 34vh;
+    width: 280px;
+    height: 211px;
     font-size: 0.7rem;
     overflow: auto;
   }
+  .go{
+   margin-top: 3%;
+  }
 }
-@media (max-width: 768px){
+/* @media (min-width: 376px){
   .cardContainer{
     width: 100%;
     height: auto;
@@ -138,7 +141,8 @@
   .rightArrow {
     right: 8px;
   }
+  
   .leftArrow {
     left: 8px;
   }
-}
+} */
