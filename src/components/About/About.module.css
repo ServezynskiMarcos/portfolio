@@ -51,14 +51,19 @@
   gap: 0.5rem;
 }
 .div1 .icons a {
-  transform: rotate(270deg);
   color: #3F3D56;
+  text-decoration: none;
 }
 .icons a:hover {
   color: #8985A8;
   cursor: pointer;
 }
-
+.div1 .icons .downloadContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .container img {
   width: 50%;
   height: 300px;
@@ -87,6 +92,10 @@
   }
   .div1 .icons a{
     transform: rotate(0deg);
+  }
+  .div1 .icons .downloadContainer{
+    display: flex;
+    flex-direction: column-reverse;
   }
   @keyframes typing {
     from {
@@ -164,9 +173,6 @@
     }
     .div1 .icons {
       flex-direction: column;
-    }
-    .div1 .icons a{
-      transform: rotate(270deg);
     }
     @keyframes typing {
       from {
