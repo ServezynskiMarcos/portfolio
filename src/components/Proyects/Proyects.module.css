@@ -1,11 +1,10 @@
-.container{
-  background-color: #9599E2;
+.container {
+  background-color: #9599e2;
   height: 100vh;
   scroll-snap-align: start;
   display: flex;
-  justify-content:center;
+  justify-content: center;
   align-items: center;
-
 }
 .cardContainer {
   position: relative;
@@ -44,7 +43,6 @@
   background-color: #000000e8;
   color: #fff;
   padding: 20px;
-
 }
 .overlaycontainer:hover .overlay {
   opacity: 1;
@@ -56,7 +54,6 @@
   justify-content: center;
   margin-top: 10%;
   line-height: 1.7;
-
 }
 
 .rightArrow {
@@ -80,16 +77,125 @@
   cursor: pointer;
   user-select: none;
 }
-.go{
+.go {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 1rem;
 }
-.go a{
-  color: #3F3D56;
+.go a {
+  color: #3f3d56;
 }
 .go a:hover {
   color: #fff;
   cursor: pointer;
+}
+.imageMobile {
+  width: 230px;
+}
+@media (max-width: 600px) {
+  .cardContainer {
+    width: 100%;
+    height: 50vh;
+  }
+  .cardImage {
+    width: 320px;
+    height: 250px;
+  }
+  .rightArrow {
+    top: 75%;
+  }
+  .leftArrow {
+    top: 75%;
+  }
+  .overlay {
+    width: 280px;
+    height: 211px;
+    font-size: 0.7rem;
+    overflow: auto;
+  }
+  .go {
+    margin-top: 3%;
+  }
+}
+@media (min-width: 600px) {
+  .cardContainer {
+    width: 100%;
+    height: 50vh;
+  }
+  .cardImage {
+    width: 520px;
+    height: 350px;
+  }
+
+  .overlay {
+    width: 480px;
+    height: 311px;
+    font-size: 0.9rem;
+    overflow: auto;
+  }
+  .rightArrow {
+    right: 1%;
+  }
+  .leftArrow {
+    left: 1%;
+  }
+}
+@media (min-width: 768px) {
+  .rightArrow {
+    right: 6%;
+  }
+  .leftArrow {
+    left: 6%;
+  }
+}
+@media (min-width: 992px) {
+  .rightArrow {
+    right: 15%;
+  }
+  .leftArrow {
+    left: 15%;
+  }
+}
+@media (min-width: 1200px) {
+  .cardContainer {
+    width: 100%;
+    height: 65vh;
+  }
+  .cardImage {
+    width: 620px;
+    height: 400px;
+  }
+  .overlay {
+    width: 580px;
+    height: 360px;
+    overflow: auto;
+  }
+  .rightArrow {
+    right: 16%;
+  }
+  .leftArrow {
+    left: 16%;
+  }
+}
+@media (min-width: 1500px) {
+  .cardContainer {
+    width: 100%;
+    height: 60vh;
+  }
+  .cardImage {
+    width: 720px;
+    height: 400px;
+  }
+  .overlay {
+    width: 680px;
+    height: 360px;
+    overflow: auto;
+  }
+  .rightArrow {
+    right: 20%;
+  }
+  .leftArrow {
+    left: 20%;
+  }
 }

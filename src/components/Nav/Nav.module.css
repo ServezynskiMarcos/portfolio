@@ -5,6 +5,7 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  z-index: 100;
 
 }
 .container a{
@@ -31,4 +32,10 @@
 .container a:hover::before {
 	opacity: 1;	
 	transform: scale(1, 1);	
+}
+@media (max-width: 375px){
+  .container a{
+    font-size: 1rem;
+  }
+  
 }
