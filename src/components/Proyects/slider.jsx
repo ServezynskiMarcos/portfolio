@@ -1,5 +1,6 @@
 import img1 from "./img/img1.jpg";
 import img2 from "./img/img2.jpg";
+import img3 from "./img/img3.jpg";
 export const SliderDate = [
     {
         image: img1,
@@ -14,5 +15,12 @@ export const SliderDate = [
         description: "World Api es una SPA, que tiene como fin poder brindar información de todos los países del mundo, contando con ordenamiento por cantidad de habitantes, contiente y más!. A demás el usuario tiene la posibilidad de interactuar con la pagina, creando actividades turísticas en algún país en particular, esta pagina fue creada consumiendo datos de la ya conocida API rest countries.",
         deploy: "https://res-countries-api.vercel.app/",
         repo: "https://github.com/ServezynskiMarcos/Countries-PI"
+      },
+      {
+        image: img3,
+        tittle: "Venice Resort SPA",
+        description: "Se trata de una pagina de reserva hotelera, la misma cuenta con calendario de reserva, apartado de ofertas, galería de imágenes, formulario de contacto y más!",
+        deploy: "https://venice-resort.vercel.app/",
+        repo: "https://github.com/ServezynskiMarcos/resortvenice"
       },
 ]
