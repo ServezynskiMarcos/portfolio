@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import s from "./Proyects.module.css";
 import { SliderDate } from "./slider";
 import { BsArrowLeftCircleFill, BsArrowRightCircleFill } from "react-icons/bs";
-import { AiFillGithub, AiOutlineLink} from "react-icons/ai";
+import { AiFillGithub, AiOutlineLink } from "react-icons/ai";
 const Proyects = ({ slides }) => {
   const [current, setCurrent] = useState(0);
   const length = slides.length;
@@ -33,7 +33,9 @@ const Proyects = ({ slides }) => {
                   <div className={s.overlaycontainer}>
                     <div className={s.overlay}>
                       <h1 className={s.info}>{e.tittle}</h1>
-                      <p className={s.info}>{e.description}</p>
+                      <p className={s.info}>
+                        {e.description ? e.description : null}
+                      </p>
                     </div>
                     <img className={s.cardImage} src={e.image} alt="a" />
                   </div>

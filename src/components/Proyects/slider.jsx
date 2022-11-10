@@ -1,7 +1,14 @@
 import img1 from "./img/img1.jpg";
 import img2 from "./img/img2.jpg";
 import img3 from "./img/img3.jpg";
+import img4 from "./img/img4.png"
 export const SliderDate = [
+  {
+    image: img4,
+    tittle: "Jordan SPA",
+    deploy: "https://nike-jordan.vercel.app",
+    repo: "https://github.com/ServezynskiMarcos/Nike-Jordan",
+  },
   {
     image: img3,
     tittle: "Venice Resort SPA",
