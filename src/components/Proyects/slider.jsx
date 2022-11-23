@@ -1,9 +1,16 @@
 import img1 from "./img/img1.jpg";
 import img2 from "./img/img2.jpg";
 import img3 from "./img/img3.jpg";
-import img4 from "./img/img4.png"
-import img5 from "./img/img5.png"
+import img4 from "./img/img4.png";
+import img5 from "./img/img5.png";
+import img6 from "./img/img6.png";
 export const SliderDate = [
+  {
+    image: img6,
+    tittle: "NFT Commerce SPA",
+    deploy: "https://nft-commerce-tau.vercel.app",
+    repo: "https://github.com/ServezynskiMarcos/nft-commerce",
+  },
   {
     image: img4,
     tittle: "Jordan SPA",
