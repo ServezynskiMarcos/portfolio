@@ -8,6 +8,7 @@ export const SliderDate = [
   {
     image: img6,
     tittle: "NFT Commerce SPA",
+    description: "'React', 'Vite', 'ChakraUi', 'LocalStorage', 'Redux-Toolkit'",
     deploy: "https://nft-commerce-tau.vercel.app",
     repo: "https://github.com/ServezynskiMarcos/nft-commerce",
   },
